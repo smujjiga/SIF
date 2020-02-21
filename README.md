@@ -8,4 +8,8 @@ The changes I have done are to make it fast and scalabeld and fix few issues. Th
 
 Check the `test.py` file to understand how to generate the embeddings. 
 
-Download and copy the glove file `glove.840B.300d.txt` to the working direcotyr and run `python test.py`
+Download and copy the glove file `glove.840B.300d.txt` to the working directory and run `python test.py`
+
+`test.py` uses a sample `test.csv` file and generated embeddings for the column called `question1`. To show how good the embeddings are, cosine similarity is used to show the top 5 similar questions for each question and the result is saved in result.csv
+
+`test.csv` is a sampled file from `test.csv` of quora challenge.
